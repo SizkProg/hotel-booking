@@ -1,0 +1,14 @@
+E2E SUCCESS
+GET /api/hotels → 401
+POST /user/register → 200
+GET /api/hotels → 200
+GET /api/rooms/recommend?startDate=2026-11-08&endDate=2026-11-10 → 200
+POST /booking → 200
+POST /booking → 200
+POST /booking → 409
+GET /api/bookings → 200
+GET /user → 403
+POST /api/rooms/1/release → 404
+DELETE /booking/324d9936-02ac-4ce8-abac-38ab90bbdbf5 → 200
+POST /user/auth → 200
+GET /api/rooms/statistics → 200
